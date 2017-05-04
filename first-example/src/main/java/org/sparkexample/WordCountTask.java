@@ -25,8 +25,8 @@ public class WordCountTask {
    * See {@see http://spark.apache.org/docs/latest/submitting-applications.html}
    */
   public static void main(String[] args) {
-    checkArgument(args.length > 0, "Please provide the path of input file as first parameter.");
-    new WordCountTask().run(args[0]);
+    //checkArgument(args.length > 0, "Please provide the path of input file as first parameter.");
+    new WordCountTask().run("D:\\Work\\workbench.properties");
   }
 
   /**
